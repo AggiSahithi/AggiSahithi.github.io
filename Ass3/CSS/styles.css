@@ -9,5 +9,42 @@ body {
   height: 100vh;
   background-size: cover;
   background-repeat: no-repeat;
-  background-image: linear-gradient(to right bottom, rgba(0, 99, 25, 0.801), rgba(0, 99, 110, 0.801)), url(/images/rain1.JPG);
+  background-image: url(/images/Ohmky.JPG);
+}
+
+.form {
+    width: 400px;
+    height: 500px;
+    position: relative;
+    margin: 6% auto;
+    background: #fff;
+    padding: 5px;
+}
+
+.button-box {
+    width: 240px;
+    margin: 35px auto;
+    position: relative;
+    box-shadow: 0 0 20px 9px black;
+    border-radius: 35px;
+}
+
+.toggle-btn {
+    padding: 10px 30px;
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+    outline: none;
+    position: relative;
+}
+
+#btn {
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 110px;
+    height: 100%;
+    background: rgb(44, 58, 17);
+    border-radius: 35px;
+    transition: .5s;
 }
