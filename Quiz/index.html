@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="CSS/Style.css" />
+
+    <link
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      rel="stylesheet"
+      integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+      crossorigin="anonymous"
+    />
+
+    <title>Assignment_3</title>
+  </head>
+  <body>
+    <div class="popup" onclick="myFunction()">
+      Click for Instructions
+      <span class="popuptext" id="myPopup"
+        >This quiz consists of 5 <b>Single Correct Answer</b> questions.<br />
+        Each question carries 1 mark.</span
+      >
+    </div>
+
+    <script>
+      function myFunction() {
+        var popup = document.getElementById("myPopup");
+        popup.classList.toggle("show");
+      }
+    </script>
+
+    <div class="Quiz-box">
+      <div id="Quiz"></div>
+    </div>
+
+    <button id="Previous">Previous Question</button>
+    <button id="Next">Next Question</button>
+    <button id="Submit">Submit</button>
+    <div id="Result"></div>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>

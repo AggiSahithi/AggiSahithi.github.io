@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-image: url(../images/Green.JPG);
+}
+
+h1 {
+    text-align: center;
+    font-size: 5vw;
+    text-transform: uppercase;
+    text-shadow: -2px 0 1px black;
+    margin-bottom: 0;
+}
+
+.form {
+  width: 60%;
+  position: relative;
+  margin: 6% auto;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 5px;
+  margin-top: 1%;
+}
+
+.button-box {
+  text-align: center;
+  width: 150px;
+  margin: 35px auto;
+  position: relative;
+  box-shadow: 0 0 8px 4px rgb(43, 28, 1);
+  border-radius: 35px;
+}
+
+.toggle-btn {
+  padding: 10px 30px;
+  cursor: pointer;
+  background: transparent;
+  border: 0;
+  outline: none;
+  position: relative;
+  font-size: 1.2em;
+}
+
+#btn {
+  top: 0;
+  left: 0;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: white;
+  border-radius: 35px;
+  transition: 0.5s;
+}
+
+@media (max-width: 767px) {
+  .form {
+    width: 90%;
+  }
+}
+
+form {
+  color: #fff;
+}
+
+.form-control {
+  background-color: rgba(12, 12, 12, 0.342) !important;
+}
+
+#Birthday_Day {
+  color: #000;
+  margin-top: 25px;
+  margin-bottom: 15px;
+  background-color: #fff;
+  border-radius: 5px;
+}
+
+#Birthday_Month {
+  color: #000;
+  margin-top: 25px;
+  margin-bottom: 15px;
+  background-color: #fff;
+  border-radius: 5px;
+}
+
+#Birthday_Year {
+  color: black;
+  margin-top: 25px;
+  margin-bottom: 15px;
+  background-color: white;
+  border-radius: 5px;
+}
+
+#phone {
+  width: 40%;
+  color: #fff;
+  margin-top: 25px;
+  margin-bottom: 15px;
+  background-color: rgba(12, 12, 12, 0.342);
+  border-radius: 5px;
+}
+
+.courses {
+  color: white;
+  margin-top: 2%;
+  margin-left: 2%;
+}
+
+#gridCheck1 {
+  margin-left: 5%;
+  margin-top: 2%;
+}
+
+.form-check-label {
+  color: white;
+  margin-left: 9%;
+}
+
+#passwordHelpBlock {
+  color: #fff !important;
+}
+
+.form-check-label1 {
+  color: white;
+}
