@@ -58,7 +58,7 @@ a:hover {
 }
 
 .parallax {
-  background-image: url(/Images/I1.JPG);
+  background-image: url(../Images/I1.JPG);
   /* Set a specific height */
   min-height: 75vh;
 
@@ -70,7 +70,7 @@ a:hover {
 }
 
 .parallax_1 {
-  background-image: url(/Images/sky.jfif);
+  background-image: url(../Images/sky.jfif);
   /* Set a specific height */
   min-height: 75vh;
 
@@ -82,7 +82,7 @@ a:hover {
 }
 
 .parallax_2 {
-  background-image: url(/Images/I2.jpg);
+  background-image: url(../Images/I2.JPG);
   /* Set a specific height */
   min-height: 75vh;
 
@@ -133,7 +133,7 @@ a:hover {
   width: 100%;
   height: 100vh;
   top: 100vh;
-  background-image: url(/Images/I1.jpg);
+  background-image: url(../Images/I1.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: bottom;
