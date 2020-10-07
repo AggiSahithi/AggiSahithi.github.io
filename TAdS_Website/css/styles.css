@@ -141,7 +141,7 @@ a:hover {
 
 .text_1 {
   margin-left: 10vw;
-  padding-top: 7vh;
+  padding-top: 10vh;
   padding-bottom: 7vh;
   font-style: initial;
   line-height: 1.3em;
@@ -164,6 +164,7 @@ a:hover {
 
 h1 {
   justify-content: center;
+  color: rgb(218, 5, 5);
 }
 
 .text_2 {
@@ -182,10 +183,10 @@ h1 {
 }
 
 .img1 {
-  margin-left: 5vw;
+  margin-left: 8.5vw;
   margin-bottom: 5vh;
-  height: 26.2vw;
-  width: 26.2vw;
+  height: 22vw;
+  width: 22vw;
   border: solid 3px white;
   border-radius: 50%;
   box-shadow: 2px 2px grey;
